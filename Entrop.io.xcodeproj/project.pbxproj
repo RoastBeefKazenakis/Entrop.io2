@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90C6AFE251E37C4002E428D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C6AFD251E37C4002E428D /* GameViewController.swift */; };
+		E90C6B03251E38A1002E428D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C6B02251E38A1002E428D /* SettingsViewController.swift */; };
+		E96C377F251DD63700D8576C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C377E251DD63700D8576C /* AppDelegate.swift */; };
+		E96C3781251DD63700D8576C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C3780251DD63700D8576C /* SceneDelegate.swift */; };
+		E96C3786251DD63700D8576C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96C3784251DD63700D8576C /* Main.storyboard */; };
+		E96C3788251DD63900D8576C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96C3787251DD63900D8576C /* Assets.xcassets */; };
+		E96C378B251DD63900D8576C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96C3789251DD63900D8576C /* LaunchScreen.storyboard */; };
+		E96C3796251DD63900D8576C /* Entrop_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C3795251DD63900D8576C /* Entrop_ioTests.swift */; };
+		E96C37A1251DD63900D8576C /* Entrop_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C37A0251DD63900D8576C /* Entrop_ioUITests.swift */; };
+		E96C37B2251DD9F400D8576C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C37B1251DD9F400D8576C /* Cell.swift */; };
+		E96C37B7251DE41B00D8576C /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C37B6251DE41B00D8576C /* Grid.swift */; };
+		E96C37BC251DE7CA00D8576C /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C37BB251DE7CA00D8576C /* GridView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E96C3792251DD63900D8576C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96C3773251DD63600D8576C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96C377A251DD63600D8576C;
+			remoteInfo = Entrop.io;
+		};
+		E96C379D251DD63900D8576C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E96C3773251DD63600D8576C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E96C377A251DD63600D8576C;
+			remoteInfo = Entrop.io;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E90C6AFD251E37C4002E428D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E90C6B02251E38A1002E428D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E96C377B251DD63600D8576C /* Entrop.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Entrop.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96C377E251DD63700D8576C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E96C3780251DD63700D8576C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E96C3785251DD63700D8576C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E96C3787251DD63900D8576C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E96C378A251DD63900D8576C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E96C378C251DD63900D8576C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96C3791251DD63900D8576C /* Entrop.ioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Entrop.ioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96C3795251DD63900D8576C /* Entrop_ioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrop_ioTests.swift; sourceTree = "<group>"; };
+		E96C3797251DD63900D8576C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96C379C251DD63900D8576C /* Entrop.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Entrop.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96C37A0251DD63900D8576C /* Entrop_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrop_ioUITests.swift; sourceTree = "<group>"; };
+		E96C37A2251DD63900D8576C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96C37B1251DD9F400D8576C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		E96C37B6251DE41B00D8576C /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		E96C37BB251DE7CA00D8576C /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E96C3778251DD63600D8576C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96C378E251DD63900D8576C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96C3799251DD63900D8576C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E96C3772251DD63600D8576C = {
+			isa = PBXGroup;
+			children = (
+				E96C377D251DD63700D8576C /* Entrop.io */,
+				E96C3794251DD63900D8576C /* Entrop.ioTests */,
+				E96C379F251DD63900D8576C /* Entrop.ioUITests */,
+				E96C377C251DD63600D8576C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E96C377C251DD63600D8576C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E96C377B251DD63600D8576C /* Entrop.io.app */,
+				E96C3791251DD63900D8576C /* Entrop.ioTests.xctest */,
+				E96C379C251DD63900D8576C /* Entrop.ioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E96C377D251DD63700D8576C /* Entrop.io */ = {
+			isa = PBXGroup;
+			children = (
+				E96C377E251DD63700D8576C /* AppDelegate.swift */,
+				E96C3780251DD63700D8576C /* SceneDelegate.swift */,
+				E96C3784251DD63700D8576C /* Main.storyboard */,
+				E96C37B1251DD9F400D8576C /* Cell.swift */,
+				E96C37B6251DE41B00D8576C /* Grid.swift */,
+				E96C37BB251DE7CA00D8576C /* GridView.swift */,
+				E90C6AFD251E37C4002E428D /* GameViewController.swift */,
+				E90C6B02251E38A1002E428D /* SettingsViewController.swift */,
+				E96C3787251DD63900D8576C /* Assets.xcassets */,
+				E96C3789251DD63900D8576C /* LaunchScreen.storyboard */,
+				E96C378C251DD63900D8576C /* Info.plist */,
+			);
+			path = Entrop.io;
+			sourceTree = "<group>";
+		};
+		E96C3794251DD63900D8576C /* Entrop.ioTests */ = {
+			isa = PBXGroup;
+			children = (
+				E96C3795251DD63900D8576C /* Entrop_ioTests.swift */,
+				E96C3797251DD63900D8576C /* Info.plist */,
+			);
+			path = Entrop.ioTests;
+			sourceTree = "<group>";
+		};
+		E96C379F251DD63900D8576C /* Entrop.ioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E96C37A0251DD63900D8576C /* Entrop_ioUITests.swift */,
+				E96C37A2251DD63900D8576C /* Info.plist */,
+			);
+			path = Entrop.ioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E96C377A251DD63600D8576C /* Entrop.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96C37A5251DD63900D8576C /* Build configuration list for PBXNativeTarget "Entrop.io" */;
+			buildPhases = (
+				E96C3777251DD63600D8576C /* Sources */,
+				E96C3778251DD63600D8576C /* Frameworks */,
+				E96C3779251DD63600D8576C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Entrop.io;
+			productName = Entrop.io;
+			productReference = E96C377B251DD63600D8576C /* Entrop.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E96C3790251DD63900D8576C /* Entrop.ioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96C37A8251DD63900D8576C /* Build configuration list for PBXNativeTarget "Entrop.ioTests" */;
+			buildPhases = (
+				E96C378D251DD63900D8576C /* Sources */,
+				E96C378E251DD63900D8576C /* Frameworks */,
+				E96C378F251DD63900D8576C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96C3793251DD63900D8576C /* PBXTargetDependency */,
+			);
+			name = Entrop.ioTests;
+			productName = Entrop.ioTests;
+			productReference = E96C3791251DD63900D8576C /* Entrop.ioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E96C379B251DD63900D8576C /* Entrop.ioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E96C37AB251DD63900D8576C /* Build configuration list for PBXNativeTarget "Entrop.ioUITests" */;
+			buildPhases = (
+				E96C3798251DD63900D8576C /* Sources */,
+				E96C3799251DD63900D8576C /* Frameworks */,
+				E96C379A251DD63900D8576C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E96C379E251DD63900D8576C /* PBXTargetDependency */,
+			);
+			name = Entrop.ioUITests;
+			productName = Entrop.ioUITests;
+			productReference = E96C379C251DD63900D8576C /* Entrop.ioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E96C3773251DD63600D8576C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E96C377A251DD63600D8576C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E96C3790251DD63900D8576C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E96C377A251DD63600D8576C;
+					};
+					E96C379B251DD63900D8576C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E96C377A251DD63600D8576C;
+					};
+				};
+			};
+			buildConfigurationList = E96C3776251DD63600D8576C /* Build configuration list for PBXProject "Entrop.io" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E96C3772251DD63600D8576C;
+			productRefGroup = E96C377C251DD63600D8576C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E96C377A251DD63600D8576C /* Entrop.io */,
+				E96C3790251DD63900D8576C /* Entrop.ioTests */,
+				E96C379B251DD63900D8576C /* Entrop.ioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E96C3779251DD63600D8576C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96C378B251DD63900D8576C /* LaunchScreen.storyboard in Resources */,
+				E96C3788251DD63900D8576C /* Assets.xcassets in Resources */,
+				E96C3786251DD63700D8576C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96C378F251DD63900D8576C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96C379A251DD63900D8576C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E96C3777251DD63600D8576C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90C6AFE251E37C4002E428D /* GameViewController.swift in Sources */,
+				E96C37B2251DD9F400D8576C /* Cell.swift in Sources */,
+				E96C377F251DD63700D8576C /* AppDelegate.swift in Sources */,
+				E96C37B7251DE41B00D8576C /* Grid.swift in Sources */,
+				E96C37BC251DE7CA00D8576C /* GridView.swift in Sources */,
+				E96C3781251DD63700D8576C /* SceneDelegate.swift in Sources */,
+				E90C6B03251E38A1002E428D /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96C378D251DD63900D8576C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96C3796251DD63900D8576C /* Entrop_ioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96C3798251DD63900D8576C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96C37A1251DD63900D8576C /* Entrop_ioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E96C3793251DD63900D8576C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96C377A251DD63600D8576C /* Entrop.io */;
+			targetProxy = E96C3792251DD63900D8576C /* PBXContainerItemProxy */;
+		};
+		E96C379E251DD63900D8576C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E96C377A251DD63600D8576C /* Entrop.io */;
+			targetProxy = E96C379D251DD63900D8576C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E96C3784251DD63700D8576C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96C3785251DD63700D8576C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E96C3789251DD63900D8576C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96C378A251DD63900D8576C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E96C37A3251DD63900D8576C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E96C37A4251DD63900D8576C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E96C37A6251DD63900D8576C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entrop.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Entrop-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E96C37A7251DD63900D8576C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entrop.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Entrop-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E96C37A9251DD63900D8576C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entrop.ioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Entrop-ioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entrop.io.app/Entrop.io";
+			};
+			name = Debug;
+		};
+		E96C37AA251DD63900D8576C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entrop.ioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Entrop-ioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entrop.io.app/Entrop.io";
+			};
+			name = Release;
+		};
+		E96C37AC251DD63900D8576C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entrop.ioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Entrop-ioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Entrop.io;
+			};
+			name = Debug;
+		};
+		E96C37AD251DD63900D8576C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Entrop.ioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LunarCodebase.Entrop-ioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Entrop.io;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E96C3776251DD63600D8576C /* Build configuration list for PBXProject "Entrop.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96C37A3251DD63900D8576C /* Debug */,
+				E96C37A4251DD63900D8576C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96C37A5251DD63900D8576C /* Build configuration list for PBXNativeTarget "Entrop.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96C37A6251DD63900D8576C /* Debug */,
+				E96C37A7251DD63900D8576C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96C37A8251DD63900D8576C /* Build configuration list for PBXNativeTarget "Entrop.ioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96C37A9251DD63900D8576C /* Debug */,
+				E96C37AA251DD63900D8576C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E96C37AB251DD63900D8576C /* Build configuration list for PBXNativeTarget "Entrop.ioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96C37AC251DD63900D8576C /* Debug */,
+				E96C37AD251DD63900D8576C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E96C3773251DD63600D8576C /* Project object */;
+}
